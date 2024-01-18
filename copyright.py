@@ -39,7 +39,7 @@ Fᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴜsᴛᴏᴍɪᴢᴇ ᴛʜᴇ ᴅᴇsᴄʀɪᴘ�
     )
 
 #---------------------------------------------------------------------------
-keywords_to_delete = ["www.", "https", "http" , "t.me", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+keywords_to_delete = ["NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
 #-----------------------------------------------------------------------------
 #-----------------------------------------------------------------------------
 @app.on_message(filters.group & filters.text & ~filters.me)
