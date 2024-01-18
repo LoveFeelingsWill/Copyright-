@@ -13,33 +13,29 @@ app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 def start_command(client, message):
     client.send_message(
         chat_id=message.chat.id,
-        text="""Certainly! Here's a description for your Telegram bot designed to protect against copyright messages or unauthorized links:
+        text="""Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ Bᴏᴛ
 
----
+Gᴜᴀʀᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɢᴀɪɴsᴛ ᴄᴏᴘʏʀɪɢʜᴛ ɪɴғʀɪɴɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴜɴᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪɴᴋs ᴡɪᴛʜ ᴛʜᴇ Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ Bᴏᴛ! Tʜɪs ɪɴᴛᴇʟʟɪɢᴇɴᴛ ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ᴍᴀɪɴᴛᴀɪɴ ᴛʜᴇ ɪɴᴛᴇɢʀɪᴛʏ ᴏғ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ᴄᴏᴍᴍᴜɴɪᴛʏ ʙʏ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇᴛᴇᴄᴛɪɴɢ ᴀɴᴅ ʜᴀɴᴅʟɪɴɢ ᴄᴏᴘʏʀɪɢʜᴛ ᴍᴇssᴀɢᴇs ᴏʀ sᴜsᴘɪᴄɪᴏᴜs ʟɪɴᴋs.
 
-🛡️ **Link Protection Bot**
+🚫 Fᴇᴀᴛᴜʀᴇs:
+- Cᴏᴘʏʀɪɢʜᴛ Mᴇssᴀɢᴇ Dᴇᴛᴇᴄᴛɪᴏɴ: Tʜᴇ ʙᴏᴛ sᴄᴀɴs ᴍᴇssᴀɢᴇs ғᴏʀ ᴘᴏᴛᴇɴᴛɪᴀʟ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs, ᴇɴsᴜʀɪɴɢ ᴀ sᴀғᴇ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs.
+- Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ: Uɴᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪɴᴋs ᴀʀᴇ ᴘʀᴏᴍᴘᴛʟʏ ɪᴅᴇɴᴛɪғɪᴇᴅ ᴀɴᴅ ᴍᴀɴᴀɢᴇᴅ ᴛᴏ ᴘʀᴇᴠᴇɴᴛ sᴘᴀᴍ, ᴘʜɪsʜɪɴɢ, ᴏʀ ᴀɴʏ ʜᴀʀᴍғᴜʟ ᴀᴄᴛɪᴠɪᴛɪᴇs.
+- Cᴜsᴛᴏᴍɪᴢᴀʙʟᴇ Sᴇᴛᴛɪɴɢs: Tᴀɪʟᴏʀ ᴛʜᴇ ʙᴏᴛ's ʙᴇʜᴀᴠɪᴏʀ ᴛᴏ ғɪᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴜɴɪǫᴜᴇ ɴᴇᴇᴅs. AᴅJᴜsᴛ sᴇɴsɪᴛɪᴠɪᴛʏ ʟᴇᴠᴇʟs ᴀɴᴅ sᴘᴇᴄɪғʏ ᴀᴄᴛɪᴏɴs ғᴏʀ ᴅɪғғᴇʀᴇɴᴛ ᴛʏᴘᴇs ᴏғ ᴠɪᴏʟᴀᴛɪᴏɴs.
 
-Guard your group against copyright infringement and unauthorized links with the Link Protection Bot! This intelligent bot is designed to maintain the integrity of your Telegram community by automatically detecting and handling copyright messages or suspicious links.
+🤖 Hᴏᴡ ᴛᴏ Usᴇ:
+𝟷. Iɴᴠɪᴛᴇ ᴛʜᴇ Bᴏᴛ: Aᴅᴅ ᴛʜᴇ Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ Bᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+𝟸. Aᴜᴛᴏᴍᴀᴛᴇᴅ Pʀᴏᴛᴇᴄᴛɪᴏɴ: Tʜᴇ ʙᴏᴛ ᴡᴏʀᴋs sɪʟᴇɴᴛʟʏ ɪɴ ᴛʜᴇ ʙᴀᴄᴋɢʀᴏᴜɴᴅ, ɪᴅᴇɴᴛɪғʏɪɴɢ ᴀɴᴅ ʜᴀɴᴅʟɪɴɢ ᴄᴏᴘʏʀɪɢʜᴛ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴜɴᴀᴜᴛʜᴏʀɪᴢᴇᴅ ʟɪɴᴋs.
+𝟹. Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ (Oᴘᴛɪᴏɴᴀʟ): Fɪɴᴇ-ᴛᴜɴᴇ ᴛʜᴇ ʙᴏᴛ's sᴇᴛᴛɪɴɢs ᴛᴏ ᴀʟɪɢɴ ᴡɪᴛʜ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴍᴏᴅᴇʀᴀᴛɪᴏɴ ᴘʀᴇғᴇʀᴇɴᴄᴇs.
 
-🚫 **Features:**
-- **Copyright Message Detection:** The bot scans messages for potential copyright violations, ensuring a safe environment for your group members.
-- **Link Protection:** Unauthorized links are promptly identified and managed to prevent spam, phishing, or any harmful activities.
-- **Customizable Settings:** Tailor the bot's behavior to fit your group's unique needs. Adjust sensitivity levels and specify actions for different types of violations.
+👮‍♂️ Dɪsᴄʟᴀɪᴍᴇʀ: Tʜɪs ʙᴏᴛ ɪs ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴠɪɢɪʟᴀɴᴛ ɢᴜᴀʀᴅɪᴀɴ, ʙᴜᴛ ʜᴜᴍᴀɴ ᴏᴠᴇʀsɪɢʜᴛ ɪs ᴀʟᴡᴀʏs ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ. Sᴛᴀʏ ᴄᴏᴍᴘʟɪᴀɴᴛ ᴡɪᴛʜ Tᴇʟᴇɢʀᴀᴍ's ᴛᴇʀᴍs ᴏғ sᴇʀᴠɪᴄᴇ ᴀɴᴅ ᴇɴᴄᴏᴜʀᴀɢᴇ ʏᴏᴜʀ ᴍᴇᴍʙᴇʀs ᴛᴏ sʜᴀʀᴇ ᴄᴏɴᴛᴇɴᴛ ʀᴇsᴘᴏɴsɪʙʟʏ.
 
-🤖 **How to Use:**
-1. **Invite the Bot:** Add the Link Protection Bot to your group.
-2. **Automated Protection:** The bot works silently in the background, identifying and handling copyright messages and unauthorized links.
-3. **Configuration (Optional):** Fine-tune the bot's settings to align with your group's moderation preferences.
+🚀 Gᴇᴛ Sᴛᴀʀᴛᴇᴅ: Iɴᴠɪᴛᴇ ᴛʜᴇ Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ Bᴏᴛ
 
-👮‍♂️ **Disclaimer:** This bot is your group's vigilant guardian, but human oversight is always recommended. Stay compliant with Telegram's terms of service and encourage your members to share content responsibly.
+Sᴇᴄᴜʀᴇ ʏᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ ᴄᴏᴍᴍᴜɴɪᴛʏ ᴛᴏᴅᴀʏ ᴡɪᴛʜ ᴛʜᴇ Lɪɴᴋ Pʀᴏᴛᴇᴄᴛɪᴏɴ Bᴏᴛ — ʙᴇᴄᴀᴜsᴇ ᴀ sᴀғᴇ ᴀɴᴅ ʀᴇsᴘᴇᴄᴛғᴜʟ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ɪs ᴇᴠᴇʀʏᴏɴᴇ's ʀɪɢʜᴛ!
 
-🚀 **Get Started:** [Invite the Link Protection Bot](#)
+-
 
-Secure your Telegram community today with the Link Protection Bot — because a safe and respectful environment is everyone's right!
-
----
-
-Feel free to customize the description according to the specific features and tone you want to convey.""",
+Fᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴄᴜsᴛᴏᴍɪᴢᴇ ᴛʜᴇ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴛʜᴇ sᴘᴇᴄɪғɪᴄ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴛᴏɴᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴄᴏɴᴠᴇʏ. """,
     )
 
 #---------------------------------------------------------------------------
