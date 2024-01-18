@@ -1,0 +1,17 @@
+{
+  "name": "copyright",
+  "description": "Your Pyrogram-based Telegram Bot",
+  "repository": "https://github.com/DAXXTEAM/copyright-and-link-protection",
+  "website": "https://t.me/iam_daxx",
+  "keywords": ["telegram", "pyrogram", "bot"],
+  "env": {
+    "API_ID": "your_api_id",
+    "API_HASH": "your_api_hash",
+    "BOT_TOKEN": "your_bot_token"
+  },
+  "addons": [
+    {
+      "plan": "heroku/python"
+    }
+  ]
+}
