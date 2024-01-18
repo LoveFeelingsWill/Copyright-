@@ -1,1 +1,1 @@
-pyrogram==1.7.1
+pyrogram==2.0.106
