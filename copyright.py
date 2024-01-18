@@ -71,5 +71,20 @@ async def delete_edited_long_messages(client, edited_message):
 
 #-------------------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------------------
+async def delete_long_messages(message):
+    if len(message.text.split()) > 20:
+        await message.delete()
+
+@app.on_message(filters.group & filters.text & ~filters.me)
+async def handle_messages(client, message):
+    await delete_long_messages(message)
+
+@app.on_edited_message(filters.group & filters.text & ~filters.me)
+async def handle_edited_messages(client, edited_message):
+    await delete_long_messages(edited_message)
+
+#-----------
+#-----------
+
 
 app.run()
