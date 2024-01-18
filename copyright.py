@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 #---------------------------------------------------------------------------
 API_ID = '6435225'
 API_HASH = '4e984ea35f854762dcde906dce426c2d'
-BOT_TOKEN = '6914162477:AAE0zSnpICIB7gkMtksj17f7MBhIE9Zzo2A' #BOT_TOKEN
+BOT_TOKEN = '6914162477:AAF2x0zR-MNYErmkL8OwUau64jUcAXrDjZk' #BOT_TOKEN
 
 app = Client('my_bot', api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
